@@ -9,3 +9,22 @@ body {
   height: 100%;
   width: 100%;
 }
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+li {
+  /* display: flex; */
+  list-style: none;
+  font-size: 25px;
+
+  justify-content: center;
+  align-items: center;
+}
