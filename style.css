@@ -94,3 +94,19 @@ li {
   align-items: center;
   gap: 8vw;
 }
+
+/* Notes: */
+place-items: center;
+background-size: 100% 100%;
+animation: changeImg 20s linear infinite;
+
+/* Change Desktop Shortcut: Windows key+Ctrl+right/left */
+
+@keyframes changeImg {
+  0% {
+    background-image: url(images/Appen-Logo.png);
+  }
+  0% {
+    background-image: url(images/Appen-Logo.png);
+  }
+}
