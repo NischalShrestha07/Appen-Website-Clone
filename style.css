@@ -13,6 +13,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: sticky;
+  z-index: 100;
+  top: 0; */
+}
+nav {
+  top: 0;
+  position: sticky;
+  background: #ffffff;
 }
 ul {
   display: flex;
@@ -21,11 +29,9 @@ ul {
   gap: 80px;
 }
 li {
-  /* display: flex; */
   list-style: none;
-  font-size: 25px;
-  justify-content: center;
-  align-items: center;
+  font-size: 35px;
+  font-family: cursive;
 }
 .logo img {
   margin-right: 15vw;
@@ -35,11 +41,34 @@ li {
   font-weight: bold;
 }
 .heroSection {
+  font-family: "santserret", sans-serif;
   height: 100vh;
   background: url(/images/Crowd.appen.png) no-repeat;
   background-size: cover;
   background-position: center;
   text-align: justify;
-  padding: 150px;
+  padding: 18vh 25vw;
+  color: white;
   font-size: 35px;
+}
+
+.btn1 {
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  background: #ef4126;
+  color: white;
+}
+.btn2 {
+  padding: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 35px;
+  background: #6c97a6;
+}
+.btn1 a,
+.btn2 a {
+  text-decoration: none;
+  color: white;
 }
