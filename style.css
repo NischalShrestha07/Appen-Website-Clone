@@ -24,7 +24,22 @@ li {
   /* display: flex; */
   list-style: none;
   font-size: 25px;
-
   justify-content: center;
   align-items: center;
+}
+.logo img {
+  margin-right: 15vw;
+}
+.list {
+  font-size: 25px;
+  font-weight: bold;
+}
+.heroSection {
+  height: 100vh;
+  background: url(/images/Crowd.appen.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: justify;
+  padding: 150px;
+  font-size: 35px;
 }
