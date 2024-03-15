@@ -9,6 +9,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -96,17 +97,23 @@ li {
 }
 
 /* Notes: */
-place-items: center;
+/* place-items: center;
 background-size: 100% 100%;
-animation: changeImg 20s linear infinite;
+animation: changeImg 20s linear infinite; */
 
 /* Change Desktop Shortcut: Windows key+Ctrl+right/left */
 
-@keyframes changeImg {
+/* @keyframes changeImg {
   0% {
     background-image: url(images/Appen-Logo.png);
   }
-  0% {
-    background-image: url(images/Appen-Logo.png);
+  25% {
+    background-image: url(images/bag.png);
   }
-}
+  75% {
+    background-image: url(images/Crowd.appen.png);
+  }
+  100% {
+    background-image: url(images/group.png);
+  }
+} */
