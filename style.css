@@ -72,3 +72,25 @@ li {
   text-decoration: none;
   color: white;
 }
+.join {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.join h1 {
+  font-weight: 900;
+  font-size: 55px;
+  /* margin-bottom: 35px; */
+}
+.imgManage {
+  margin-bottom: 35px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+}
