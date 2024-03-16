@@ -95,6 +95,12 @@ li {
   align-items: center;
   gap: 8vw;
 }
+.manageScroll {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* overflow-x: scroll; */
+  overflow-x: auto;
+}
 
 /* Notes: */
 /* place-items: center;
