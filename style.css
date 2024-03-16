@@ -101,6 +101,37 @@ li {
   /* overflow-x: scroll; */
   overflow-x: auto;
 }
+.scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.scroll h1 {
+  text-align: center;
+  margin: 15px;
+  margin-top: 75px;
+  font-family: cursive;
+  font-size: 45px;
+}
+.scroll span {
+  text-align: center;
+  margin: 15px;
+  margin-top: 75px;
+  font-family: cursive;
+  font-size: 45px;
+}
+.block1,
+.block2,
+.block3,
+.block4,
+.block5 {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  /* font-family: cursive; */
+}
 
 /* Notes: */
 /* place-items: center;
